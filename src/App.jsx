@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import HeroSection from './components/HeroSection'
 import BentoGridImage from './components/BentoGridImage'
+import ImageBlurTool from './blur-tool/ImageBlurTool'
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
     <>
       <HeroSection />
       <BentoGridImage />
+      <ImageBlurTool />
+      
     </>
   )
 }
