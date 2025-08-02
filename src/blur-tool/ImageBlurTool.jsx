@@ -40,7 +40,7 @@ const ImageBlurTool = () => {
     img.onerror = () => {
       console.warn("Failed to load default image");
     };
-    img.src = "https://picsum.photos/600/400?random=1";
+    img.src = "";
   }, /*[]*/);
 
   const calculateCanvasScale = useCallback((img) => {
